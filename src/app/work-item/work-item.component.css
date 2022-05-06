@@ -1,6 +1,16 @@
 .card {
-    max-width: 25%;
+    width: 300px;
     margin:30px;
+    cursor: pointer;
+}
+
+.card-header {
+    font-weight: bold;
+
+}
+
+.card-body {
+    height: 150px;
 }
 
 .card:hover{
