@@ -8,15 +8,28 @@
 
 
 .card:hover{
-    transform:scale(1.05);
     filter:drop-shadow(0 0 0.75rem #ccc);
 }
 
 .input-group {
-    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.input-group:hover {
+    filter:drop-shadow(0 0 0.4rem #ccc)
 }
 
 .assignee-field{
-    height:20px;
+    height:25px;
     font-size: smaller;
+    cursor:pointer;
 }
+
+.bi-person-plus-fill {
+    font-size: 18px;
+}
+
+.input-group-text:hover {
+    background-color: #bbb;
+}
+
