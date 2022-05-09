@@ -1,9 +1,22 @@
 .card {
-    max-width: 25%;
+    width: 300px;
     margin:30px;
+    cursor:pointer;
+    height:250px;
+    overflow:hidden;
 }
+
 
 .card:hover{
     transform:scale(1.05);
     filter:drop-shadow(0 0 0.75rem #ccc);
+}
+
+.input-group {
+    padding-bottom: 15px;
+}
+
+.assignee-field{
+    height:20px;
+    font-size: smaller;
 }

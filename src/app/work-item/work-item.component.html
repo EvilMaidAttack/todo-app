@@ -1,4 +1,18 @@
 <div class="card">
-    <div class="card-header">Create Development Machine</div>
-    <div class="card-body">We need Azure Virtual Machines for the Development.</div>
+    <div class="card-header">
+        <ng-content select=".title"></ng-content>
+    </div>
+    <div class="card-body">
+        <div class="card-metadata">
+            <div class="input-group w-75">
+                <span class="input-group-text assignee-field" for="assignee">
+                    <i class="bi bi-person-fill"></i>
+                </span>
+                <input type="text" id="assignee" class="form-control assignee-field">
+            </div>
+        </div>
+        <div class="card-text">
+            <ng-content select=".description"></ng-content>
+        </div>
+    </div>
 </div>

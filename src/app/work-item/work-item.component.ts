@@ -8,7 +8,7 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class WorkItemComponent implements OnInit {
 
-  @Input("work-item") item: WorkItem;
+  @Input("item") item: WorkItem;
 
   constructor() { }
 
